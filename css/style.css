@@ -1,10 +1,9 @@
 body {
     font-family: 'Roboto', sans-serif;
-
-}
+   }
 
 .container {
-    /*width: 100%;*/
+    width: 100%;
     max-width: 1920px;
     margin: 0 auto;
 }
@@ -142,9 +141,7 @@ body {
 .slider {
     margin: 0 auto;
     height: 604px;
-    width: 100%;
-    max-width: 1920px;
-    background: #fff url('../img/Rectangle 2.jpg') 0 0/cover no-repeat;
+      background: #fff url('../img/Rectangle 2.jpg') no-repeat;
 }
 
 .inner {
