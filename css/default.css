@@ -1,0 +1,89 @@
+html {
+  line-height: 1.35;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  line-height: 1.35;
+  box-sizing: border-box;
+  -webkit-text-size-adjust: 100%;
+  min-height: 100vh;
+  min-width: 100vw;
+  height: 100%;
+  font-size: 62.5%; /* 62.5% for default is 10px https://engageinteractive.co.uk/blog/em-vs-rem-vs-px*/
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+ul,
+ol {
+  list-style: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+a,
+i,
+img {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+b,
+strong,
+.bolder {
+  font-weight: 700;
+}
+
+img {
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  outline: none;
+  padding: 0;
+  border: none;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
